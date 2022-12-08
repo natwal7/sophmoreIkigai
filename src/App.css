@@ -128,7 +128,7 @@ input{
 }
 
 .calendar, .medSchedule, .notes, .form{
-  width: calc(100% - 60px);
+  width: calc(100% - 50px);
   /* height: calc(100% - 90px); */
   margin: 0 auto;
   margin-bottom: 25px;
@@ -139,6 +139,8 @@ input{
 .sitelink:focus{
   color: white;
 }
+
+
 
 
 
