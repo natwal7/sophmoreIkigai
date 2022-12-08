@@ -1,7 +1,8 @@
 import './App.css';
+import googleCalendar from './cal.png';
 //* const img = new Image("./Desktop/googleCalendar");
-//* import { SignIn } from "./Pages";
-//* import 'googleCalendar'; from './screenshots'
+//* import { SignIn } from "./Pages";$
+
 
 function App() {
   return (
@@ -27,8 +28,7 @@ function App() {
             <h3>Upcoming Appointments</h3>
             
             <a href="https://calendar.google.com/" class="sitelink">
-              <img src="./Users/nataliewallis/Documents/FRC Repositories/sophmoreIkigai/public/cal.png" alt="calendar"/>
-              
+              <img src={googleCalendar} alt="calendar"/>
             </a>
           </div>
           <div class="medSchedule">
