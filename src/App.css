@@ -1,38 +1,155 @@
 .App {
   text-align: center;
+  background-color: #70a7db;
+  min-height: 100%;
+  padding-bottom: 100px;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.titleHead, .login {
+  background-color: #94b9db;
+  color: white;
+  height: 50%;
+  font-family: sans-serif;
+  font-weight: 500;
+  border-radius: 5px; 
+  border-style: solid;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.titleHead{
+  border-width: 7px;
+  border-color: #547ca2;
+  margin: auto;
+  margin-bottom: 25px;
+  width: 90%;
+  font-size: 40px;
+  padding: 15px;
+  height: 50%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.login {
+  border-color: #94b9db;
+  border-width: 1px;
+  border-style: solid;
+  margin: 0 auto;
+  margin-bottom: 25px;
+  width: 55%;
+  height: 250px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.loginTitle{
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.dashTitle{
+  font-weight: 600;
+  font-size: 30px;
+  margin: 30px;
+}
+
+.loginInput {
+  font-size: 20px;
+  display: block;
+  margin: 15px;
+}
+
+input{
+  color: black;
+}
+
+.loginInput::placeholder{
+  color: gray;
+}
+
+.submission {
+  background-color: #547ca2;
+  border-color: #547ca2;
+  color: white;
+  border-style: solid;
+  height: 50px;
+  width: 200px;
+  border-radius: 10px;
+  font-size: 15px;
+  margin: 10px;
+}
+
+.submission:focus{
+  background-color: white;
+  border-color: white;
+  color: #547ca2;
+}
+
+.dash-main{
+  background-color: #94b9db;
+  color: white;
+  border-color: #94b9db;
+  height: 775px;
+  margin: 0 20px 0 20px;
+  width: calc(100% - 40px);
+  font-family: sans-serif;
+  font-weight: 500;
+  border-radius: 5px; 
+  border-style: solid;
+}
+
+.container1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0px;
+}
+
+.calendar{
+  background-color: #eb7b6c; 
+ 
+  
+}
+.medSchedule{
+  background-color: #ecc14b;
+ 
+}
+
+.container2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0px;
+}
+
+.notes{
+  background-color: #b26ceb;
+}
+.form{
+  background-color: #32a852;
+}
+
+.calendar, .medSchedule, .notes, .form{
+  width: calc(100% - 60px);
+  /* height: calc(100% - 90px); */
+  margin: 0 auto;
+  margin-bottom: 25px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.sitelink:focus{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+  
+  
+  
+  
+
+/*
+width: calc(50% - 40px);
+  height: 500px;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;*/
