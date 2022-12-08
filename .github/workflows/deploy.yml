@@ -2,7 +2,7 @@ name: Deploy React to gh-pages
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
 
   workflow_dispatch:
 
@@ -16,7 +16,7 @@ jobs:
       - run: npm install
       
       - name: Build app
-        run: PUBLIC_URL=https://4201VitruvianBots.github.io/ScoutingApp2023 npm run build
+        run: PUBLIC_URL=https://natwal7.github.io/sophmoreIkigai/ npm run build
       
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v1.0.4
