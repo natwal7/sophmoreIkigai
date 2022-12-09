@@ -20,7 +20,7 @@ function App() {
         <label class="loginInput">Password: <input type="password" minlength="8" placeholder="something secure..." required/></label>
         <input type="submit" class="submission"/>
         </div>
-  */}
+      */}
       <div class="dash-main">
         <p class="dashTitle">Dashboard</p>
         <div class="container1">
