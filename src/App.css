@@ -88,7 +88,6 @@ input{
   background-color: #94b9db;
   color: white;
   border-color: #94b9db;
-  height: 775px;
   margin: 0 20px 0 20px;
   width: calc(100% - 40px);
   font-family: sans-serif;
@@ -96,8 +95,6 @@ input{
   border-radius: 5px; 
   border-style: solid;
 }
-
-
 
 .calendar{
   background-color: #eb7b6c; 
