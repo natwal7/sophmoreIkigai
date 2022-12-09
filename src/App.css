@@ -88,8 +88,9 @@ input{
   background-color: #94b9db;
   color: white;
   border-color: #94b9db;
-  margin: 0 20px 0 20px;
+  margin: 0 auto;
   width: calc(100% - 40px);
+  max-width: 1070px;
   font-family: sans-serif;
   font-weight: 500;
   border-radius: 5px; 
@@ -97,11 +98,13 @@ input{
 }
 
 .calendar{
-  background-color: #eb7b6c; 
+  /* background-color: #eb7b6c;  */
+  background-color: #eb6553;
   
 }
 .medSchedule{
-  background-color: #ecc14b;
+  /* background-color: #ecc14b; */
+  background-color: #ef9756;
  
 }
 
@@ -116,10 +119,12 @@ input{
 }
 
 .notes{
-  background-color: #b26ceb;
+  /* background-color: #b26ceb; */
+  background-color: #efc656;
 }
 .form{
-  background-color: #32a852;
+  /* background-color: #32a852; */
+  background-color:#39b35a;
 }
 
 .calendar, .medSchedule, .notes, .form{
