@@ -1,5 +1,5 @@
 import './App.css';
-import googleCalendar from './cal.png';
+// import googleCalendar from './cal.png';
 //* const img = new Image("./Desktop/googleCalendar");
 //* import { SignIn } from "./Pages";$
 
@@ -22,25 +22,25 @@ function App() {
         </div>
       */}
       <div class="dash-main">
-        <p class="dashTitle">Dashboard</p>
+        <p class="dashTitle1">Dashboard</p>
         <div class="container1">
           <div class="calendar">
-            <h3>Upcoming Appointments</h3>
+            <p class="dashTitle">Upcoming Appointments</p>
             
-            <a href="https://calendar.google.com/" class="sitelink">
+            {/* <a href="https://calendar.google.com/" class="sitelink">
               <img src={googleCalendar} alt="calendar"/>
-            </a>
+            </a> */}
           </div>
           <div class="medSchedule">
-            <h3>Medication Schedule</h3>
+            <p class="dashTitle">Medication Schedule</p>
           </div>
         </div>
         <div class="container2">
           <div class="notes">
-            <h3>Recent Doctors' Notes</h3>
+            <p class="dashTitle">Recent Doctors' Notes</p>
           </div>
           <div class="form">
-            <h3>Symptom Change Form</h3>
+            <p class="dashTitle">Symptom Change Form</p>
           </div>
         </div>
       </div>
